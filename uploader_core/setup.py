@@ -5,7 +5,7 @@ setup(
     version='1.3.8',
     description='uploader main functions',
     author='MrReval',
-    author_email=M'azadit441@gmail.com',
+    author_email='azadit441@gmail.com',
     url='https://github.com/MrReval/uploader',
     setup_requires=['wheel'],
     install_requires=[
