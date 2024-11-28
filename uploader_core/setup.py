@@ -4,9 +4,9 @@ setup(
     name='uploader_core',
     version='1.3.8',
     description='uploader main functions',
-    author='MalKeMit',
-    author_email='khodemalkemit@gmail.com',
-    url='https://github.com/malkemit/uploader',
+    author='MrReval',
+    author_email=M'azadit441@gmail.com',
+    url='https://github.com/MrReval/uploader',
     setup_requires=['wheel'],
     install_requires=[
         'psutil==5.9.4',

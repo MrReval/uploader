@@ -4,9 +4,9 @@ setup(
     name='uploader_menu',
     version='1.0.0',
     description='uploader menu',
-    author='MalKeMit',
-    author_email='khodemalkemit@gmail.com',
-    url='https://github.com/malkemit/uploader',
+    author='MrReval',
+    author_email='azadit441@gmail.com',
+    url='https://github.com/MrReval/uploader',
     setup_requires=['wheel'],
     install_requires=[
         'colored~=1.4.4',
