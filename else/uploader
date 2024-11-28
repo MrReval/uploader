@@ -1,0 +1,1 @@
+source /var/www/uploader/venv/bin/activate && python3 /var/www/uploader/menu.py && deactivate

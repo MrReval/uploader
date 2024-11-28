@@ -1,0 +1,11 @@
+[Unit]
+Description=uploader service,Asymmetric upload and download
+
+[Service]
+WorkingDirectory=/var/www/uploader
+Environment=PYTHONPATH=/var/www/uploader
+ExecStart=/var/www/uploader/venv/bin/python3 uploader.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
