@@ -24,7 +24,7 @@ mkdir -p /var/www/uploader && cd /var/www/uploader
 echo 'Pulling the repository (step 3)'
 git init
 git remote add origin https://github.com/MrReval/uploader.git
-git pull origin master
+git pull origin main
 if [ $? != 0 ]; then
   echo 'could not clone the repository'
   exit
