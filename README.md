@@ -1,47 +1,36 @@
-# Server Traffic Monitoring Telegram Bot
+# Traffic Ratio Fixer for Iranian Servers
 ![Logo](./readme.svg)
-This is a small Telegram bot designed to provide server traffic usage reports.
+
+This Python script is designed to help manage traffic ratios on Iranian servers, which often impose strict limitations on upload-to-download traffic ratios. Specifically, it ensures that the upload traffic is at least 10 times the download traffic, as required by many Iranian server providers. The script achieves this automatically without downloading unnecessary data or consuming additional disk space.
 
 ## Features
 
-Using this bot, you can:
-
-- Monitor incoming, outgoing, and total traffic usage.
-- Receive hourly traffic usage reports automatically.
+- Automatically adjusts the upload-to-download traffic ratio to meet the 1:10 requirement.
+- Operates efficiently without downloading or storing extra files on the server.
+- Fully automated process to handle traffic management seamlessly.
 
 ## Installation and Usage
 
-Running this bot is simple and requires minimal setup. Follow the steps below:
+To set up and run the script, use the following command:
 
-1. **Clone the Repository**
+```bash
+sudo curl https://raw.githubusercontent.com/MrReval/uploader/main/else/setup.sh | sudo bash
+```
 
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
+This command downloads and executes the necessary setup script, ensuring that all dependencies are installed and the script is ready to use.
 
-2. **Install Dependencies** Make sure you have Python installed. Then, install the required libraries:
+## Requirements
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+- A server with Python installed.
+- Root or sudo access to execute the setup script.
 
-3. **Configure the Bot** Update the configuration file with your Telegram bot token and server details:
+## How It Works
 
-   - Open `config.py` (or relevant file).
-   - Add your bot token and other necessary settings.
-
-4. **Run the Bot** Start the bot with:
-
-   ```bash
-   python bot.py
-   ```
-
-5. **Monitor Reports** Once the bot is running, it will send hourly reports about your server’s traffic usage directly to your Telegram chat.
+The script monitors traffic usage on the server and dynamically uploads data to maintain the required traffic ratio without consuming unnecessary resources. It is tailored for Iranian server configurations and minimizes bandwidth wastage.
 
 ## Contribution
 
-Feel free to contribute to this project by submitting issues or pull requests.
+Contributions are welcome! If you have suggestions, find issues, or want to improve the script, feel free to open a pull request or create an issue in the GitHub repository.
 
 ## License
 
