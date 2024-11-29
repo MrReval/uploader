@@ -3,7 +3,7 @@ from uploader_menu import main_menu, display
 
 
 def fake_udp_uploader_running_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Do you want fake udp uploader to be activated?\n")
     selection = input(f"\n{display.green_color}y{display.cornsilk_color}/{display.red_color}n"
                       f"{display.cornsilk_color}?\n")
@@ -18,7 +18,7 @@ def fake_udp_uploader_running_setter():
 
 
 def coefficient_of_buffer_size_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Choose coefficient of buffer size? (max = 6, min = 1)\n\n"
           f"{display.red_color}Warning: The larger the buffer size, the more likely the provider will notice that "
           f"your traffic is fake, BE CAREFUL!{display.cornsilk_color}\n")
@@ -32,7 +32,7 @@ def coefficient_of_buffer_size_setter():
 
 
 def coefficient_uploader_threads_count_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Choose coefficient of uploader threads count? (max = 30, min = 1)\n\n"
           f"{display.red_color}Warning: The higher the speed, the higher the CPU consumption!"
           f"{display.cornsilk_color}\n")
@@ -46,7 +46,7 @@ def coefficient_uploader_threads_count_setter():
 
 
 def coefficient_buffer_sending_speed_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Choose coefficient of buffer sending speed? (max = 5, min = 1)\n\n"
           f"{display.red_color}Warning: The higher the speed, the higher the CPU consumption!"
           f"{display.cornsilk_color}\n")
@@ -67,7 +67,7 @@ def fake_udp_uploader_running_status():
 
 
 def menu():
-    display.banner()
+    # display.banner()
     print(
         f"{display.gold_color}--------------{display.magenta_color}Fake udp uploader menu"
         f"{display.gold_color}-------------\n\n{display.cornsilk_color}"

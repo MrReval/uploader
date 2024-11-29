@@ -4,7 +4,7 @@ from uploader_core.network import get_size, get_system_download, get_system_uplo
 
 
 def coefficient_of_limitation_setter():
-    display.banner()
+    # # display.banner()
     print(f"\n{display.cornsilk_color}What is your limit coefficient?"
           f"(max = {display.cyan_color}15{display.cornsilk_color}, min = {display.cyan_color}2"
           f"{display.cornsilk_color})\n\n"
@@ -21,7 +21,7 @@ def coefficient_of_limitation_setter():
 
 
 def upload_amount_synchronizer_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Enter the upload synchronizer amount"
           f"(max = {display.cyan_color}1000000{display.cornsilk_color}GB)\n")
     selection = int(input("\nJust enter GB amount?"))
@@ -36,7 +36,7 @@ def upload_amount_synchronizer_setter():
 
 
 def download_amount_synchronizer_setter():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Enter the download synchronizer amount"
           f"(max = {display.cyan_color}100000{display.cornsilk_color}GB)\n")
     selection = int(input("\nJust enter GB amount?"))
@@ -51,7 +51,7 @@ def download_amount_synchronizer_setter():
 
 
 def reset_network_usage():
-    display.banner()
+    # display.banner()
     print(f"\n{display.cornsilk_color}Are you sure to set the traffic to zero?\n")
     selection = input(f"\n{display.green_color}y{display.cornsilk_color}/{display.red_color}n"
                       f"{display.cornsilk_color}?\n")
@@ -69,7 +69,7 @@ def reset_network_usage():
 
 
 def menu():
-    display.banner()
+    # display.banner()
     monitor.network_usage_details_table()
     print(
         f"{display.gold_color}--------------{display.magenta_color}network usage menu"
